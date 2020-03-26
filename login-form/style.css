@@ -1,0 +1,139 @@
+body {
+    color: #4a4a4a;
+    display: flex;
+    font-family: sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #363636;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 20px 0 10px 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 100;
+    color: #4a4a4a;
+    margin: 0 0 24px 0;
+    padding: 0;
+}
+
+.card {
+    box-shadow: 0 0 15px #333;
+    background-color: #00d1b2;
+    box-sizing: border-box;
+    height: 550px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+.form-container {
+    background-color: white;
+    padding: 60px;
+    width: 500px;
+    height: 550px;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    font-weight: 600;
+    font-size: 16px;
+    width: 100%
+}
+
+input {
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: text;
+    margin: 10px 0 20px 0;
+    height: 40px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #DBDBDB;
+    width: 100%
+}
+
+input:hover {
+    border-color: #B5B5B5;
+}
+
+input:focus {
+    border-color: #3273dc;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(50,115,220,.25);    
+}
+
+input:invalid {
+    border-color: #FF0000;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(50,115,220,.25);
+}
+
+input:valid:not(:placeholder-shown) {
+    border-color: #00D1B2;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(50,115,220,.25);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #DBDBDB;
+    opacity: 1; /* Firefox */
+  }
+
+button {
+    background-color: #00d1b2;
+    border-radius: 5px;
+    border-style: none;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    padding: 10px 16px;
+    margin: 10px 0 20px 0;
+}
+
+button:hover {
+    background-color: #00C4A7;
+}
+
+button:active {
+    background-color: #00B89C;
+}
+
+.register {
+    font-size: 14px;
+}
+
+a {
+    color: #3273dc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #363636;
+}
+
+.img-container {
+    margin: 0 40px;
+    height: 550px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    align-self: center;
+    height: auto;
+    max-width: 100%;
+}
